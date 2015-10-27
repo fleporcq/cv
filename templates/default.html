@@ -1,0 +1,103 @@
+<article class="row">
+
+	<section id="identity">
+		{{#identity}}
+		<div class="photo" data-animation="bounceIn">
+			<img src="{{photo}}" alt="{{firstname}} {{lastname}}" />
+		</div>
+		<h1>{{firstname}} {{lastname}}<small> , {{age}} ans</small></h1>
+		<h2 id="title">{{title}}</h2>
+		{{/identity}}
+	</section>
+	
+	<ul id="topskills">
+		{{#topSkills}}
+		<li data-percent="{{level}}">{{name}}</li>
+		{{/topSkills}}
+	</ul>
+	
+	<div class="row">
+		<div class="col-md-7" data-animation="fadeInLeft">
+			<blockquote id="about">
+				<p><i class="fa fa-quote-left"></i> {{about}}</p>
+			</blockquote>
+		</div>
+		<div class="col-md-5" data-animation="fadeInRight">
+			<ul id="education">
+				{{#education}}
+				<li>
+					<time datetime="{{year}}">{{year}}</time>
+					<div>
+						<strong>{{certificate}}</strong>
+						<em>{{school}}</em>
+					</div>
+				</li>
+				{{/education}}
+			</ul>
+		</div>
+		
+	</div>
+	
+	
+	<section id="experiences">
+		<h2 data-animation="fadeInDown">Expériences professionnelles</h2>
+		<ul>	
+			{{#experiences}}
+			<li>
+				<h4><time datetime="{{year}}">{{year}}</time></h4>
+				<ul>
+					{{#missions}}
+					<li>
+						<div class="experience">
+							<strong class="customer">{{customer}}</strong>
+							<small class="contract">{{contract}}</small> - 
+							<small class="function">{{function}}</small>
+							<p>{{description}}</p>
+							<ul class="technologies">
+								{{#technologies}}
+								<li class="label label-primary">{{.}}</li>
+								{{/technologies}}
+							</ul>
+						</div>
+					</li>
+					{{/missions}}
+				</ul>
+			</li>
+			{{/experiences}}
+		</ul>
+	</section>
+	
+	<section id="skills">
+		<h2 data-animation="fadeInDown">Compétences techniques</h2>
+		<ul>
+			{{#skills}}
+			<li>
+				<h3>{{category}}</h3>
+				<ul>
+					{{#technologies}}
+					<li class="label label-primary">{{.}}</li>
+					{{/technologies}}
+				</ul>
+			</li>
+			{{/skills}}
+		</ul>
+	</section>
+	
+	<section id="hobbies">
+		<h2 data-animation="fadeInDown">Centres d'intérêts</h2>
+		<ul>
+			{{#hobbies}}
+			<li class="label label-primary">{{.}}</li>
+			{{/hobbies}}
+		</ul>
+	</section>
+	
+	<section id="contact">
+		{{#contact}}
+			<i class="fa fa-map-marker"></i><span>{{#nl2br}}{{address}}{{/nl2br}}</span><br>
+			<i class="fa fa-pencil"></i><a href="mailto:{{email}}">{{email}}</a><br>
+			<i class="fa fa-phone"></i><a href="tel:{{prefix}}{{phone}}">{{#phone2string}}{{phone}}{{/phone2string}}</a><br>
+			<i class="fa fa-mobile-phone"></i><a href="tel:{{prefix}}{{cell}}">{{#phone2string}}{{cell}}{{/phone2string}}</a>
+		{{/contact}}
+	</section>
+</article>

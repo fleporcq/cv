@@ -1,0 +1,334 @@
+{
+	"identity" : {
+		"firstname" : "François",
+		"lastname" : "LEPORCQ",
+		"birthdate" : "1983-06-13",
+		"photo" : "images/fleporcq.jpg"
+	},
+	"title" : "Ingénieur Web Java/PHP",
+	"contact" : {
+		"address" : "139, rue de la Croix Fouchet\nHameau Les Innocents\n76850 LA CRIQUE",
+		"email" : "fleporcq@gmail.com",
+		"phone" : "0235175759",
+		"cell" : "0619613569",
+		"prefix" : "+33"
+	},
+	"about" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec facilisis nec enim at fermentum. Cras pulvinar placerat adipiscing. Nulla turpis leo, fermentum eget dictum ac, varius a mauris. Integer sem dolor, sodales vel orci eget, aliquet lacinia leo. Aliquam bibendum felis eget quam fermentum, volutpat commodo enim pharetra. Vivamus eget nisl fringilla, ultrices.",
+	"education" : [
+		{
+			"year" : "2008",
+			"certificate" : "Architecture et Management des Systèmes d’Informations",
+			"school" : "Exia CESI Normandie"
+		},
+		{
+			"year" : "2007",
+			"certificate" : "Concepteur Développeur en Ingénierie des Logiciels",
+			"school" : "Exia CESI Normandie"
+		},
+		{
+			"year" : "2005",
+			"certificate" : "Concepteur Développeur Multimédia",
+			"school" : "CESI Normandie"
+		}	
+	],
+	"experiences" : [
+		{
+			"year" : "2015",
+			"missions" : [
+			{
+					"customer" : "SNCF-RESEAU",
+					"logo" : null,
+					"contract" : "TMA",
+					"function" : "Architecte / développeur",
+					"description" : "Tierce Maintenance Applicative de leur usine à sites",
+					"technologies" : ["Drupal", "PHP", "HTML", "CSS", "Bootstrap", "JQuery"]
+				},
+				{
+					"customer" : "Agences Régionales de Santé",
+					"logo" : "images/logos/ars.jpg",
+					"contract" : "Forfait",
+					"function" : "Architecte / développeur",
+					"description" : "Refonte technique de l’application ARHGOS",
+					"technologies" : ["Java", "Play 1", "HTML", "CSS", "Bootstrap", "JQuery"]
+				}
+			]
+		},
+		{
+			"year" : "2014",
+			"missions" : [
+				{
+					"customer" : "MAE",
+					"logo" : "images/logos/mae.jpg",
+					"contract" : "Régie",
+					"function" : "Développeur",
+					"description" : "Maintenance évolutive et corrective du site mae.fr et de l’extranet Délégataires",
+					"technologies" : ["Zend Framework 1", "HTML", "CSS", "JQuery"]
+				}
+			]
+		},
+		{
+			"year" : "2013",
+			"missions" : [
+				{
+					"customer" : "Qualitel",
+					"logo" : "images/logos/qualitel.jpg",
+					"contract" : "Forfait",
+					"function" : "Développeur",
+					"description" : "Tierce Maintenance Applicative de leur extranet",
+					"technologies" : ["Zend Framework 1", "HTML", "CSS", "JQuery", "Bootstrap"]
+				},
+				{
+					"customer" : "Travaux Internes",
+					"function" : "Architecte / développeur",
+					"description" : "Conception et développement d’une application de monitoring de webapps",
+					"technologies" : ["Java", "Play 1", "HTML", "CSS", "Bootstrap", "AngularJS"]
+				},
+				{
+					"customer" : "MAE",
+					"logo" : "images/logos/mae.jpg",
+					"contract" : "Régie",
+					"function" : "Développeur",
+					"description" : "Intégration et développement de l’extranet Délégataires",
+					"technologies" : ["WordPress", "PHP", "HTML", "CSS", "JQuery"]
+				},
+				{
+					"customer" : "Agence Nationale de Sécurité Sanitaire",
+					"logo" : "images/logos/anses.jpg",
+					"contract" : "Forfait",
+					"function" : "Développeur",
+					"description" : "Conception et développement du SI Santé pour l’application RNV3P",
+					"technologies" : ["Java", "Play", "Oracle", "HTML", "CSS", "JQuery"]
+				}
+			]
+		},
+		{
+			"year" : "2012",
+			"missions" : [
+				{
+					"customer" : "Agences Régionales de Santé",
+					"logo" : "images/logos/ars.jpg",
+					"contract" : "Forfait",
+					"function" : "Architecte / Développeur",
+					"description" : "Conception et développement du SI Santé pour l’application SDLI",
+					"technologies" : ["Java", "Play", "MySQL", "HTML", "CSS", "JQuery", "Bootstrap"]
+				},
+				{
+					"customer" : "Jones Lang LaSalle Hotels",
+					"contract" : "Forfait",
+					"function" : "Chef de projet / Développeur",
+					"description" : "Maintenance évolutive pours les différents sites du portail Jones Lang LaSalle Hotels",
+					"technologies" : ["Joomla!", "PHP", "MySQL", "HTML", "CSS", "Javascript"]
+				},
+				{
+					"customer" : "Véolia Transport",
+					"contract" : "Forfait",
+					"function" : "Développeur",
+					"description" : "Conception et développement du site internet du Nouvel Accueil du Mont-Saint-Michel",
+					"technologies" : ["Java", "Play", "MySQL", "HTML", "CSS", "JQuery", "Bootstrap"]
+				},
+				{
+					"customer" : "TCAR",
+					"contract" : "Forfait",
+					"function" : "Développeur",
+					"description" : "Conception et développement de l’intranet de la TCAR de Rouen",
+					"technologies" : ["Java", "Play", "MySQL", "HTML", "CSS", "JQuery"]
+				},
+				{
+					"customer" : "Casinos Barrières",
+					"contract" : "Forfait",
+					"function" : "Consultant",
+					"description" : "Audit technique pour une application de gestion de réservation de séminaires",
+					"technologies" : ["PHP"]
+				}
+			]
+		},
+		{
+			"year" : "2011",
+			"missions" : [
+				{
+					"customer" : "Alcatel Submarine Networks",
+					"contract" : "Forfait",
+					"function" : "Consultant",
+					"description" : "Audit technique pour deux applications de gestion des ventes",
+					"technologies" : ["PHP"]
+				},
+				{
+					"customer" : "Rouen Business School",
+					"contract" : "Régie",
+					"function" : "Développeur",
+					"description" : "Maintenance évolutive et corrective du site de l’école",
+					"technologies" : ["Joomla!", "PHP", "MySQL", "HTML", "CSS", "JQuery"]
+				},
+				{
+					"customer" : "Région Basse-Normandie",
+					"contract" : "Forfait",
+					"function" : "Chef de projet / Développeur",
+					"description" : "Tierce Maintenance Applicative pour les différents sites gérés par le CRBN",
+					"technologies" : ["Joomla!", "PHP", "MySQL", "HTML", "CSS", "JQuery"]
+				},
+				{
+					"customer" : "Agence Régionale de Santé",
+					"contract" : "Forfait",
+					"function" : "Architecte / Développeur",
+					"description" : "Conception et développement du SI Santé pour l’application SDLI",
+					"technologies" : ["Java", "Play", "MySQL", "HTML", "CSS", "JQuery", "Bootstrap"]
+				},
+				{
+					"customer" : "Jones Lang LaSalle Hotels",
+					"contract" : "Forfait",
+					"function" : "Chef de projet / Développeur",
+					"description" : "Maintenance évolutive Jones Lang LaSalle Hotels",
+					"technologies" : ["Joomla!", "PHP", "MySQL", "HTML", "CSS", "Javascript"]
+				}
+			]
+		},
+		{
+			"year" : "2010",
+			"missions" : [
+				{
+					"customer" : "Grand Port Maritime du Havre",
+					"contract" : "Forfait",
+					"function" : "Chef de projet / Développeur",
+					"description" : "Conception et  développement d’une application de dématérialisation de documents CERFA",
+					"technologies" : ["Joomla!", "PHP", "MySQL", "HTML", "CSS", "Javascript"]
+				},
+				{
+					"customer" : "Jones Lang LaSalle Hotels",
+					"contract" : "Forfait",
+					"function" : "Chef de projet / Développeur",
+					"description" : "Conception et développement du portail Jones Lang LaSalle Hotels",
+					"technologies" : ["Joomla!", "PHP", "MySQL", "HTML", "CSS", "Javascript"]
+				},
+				{
+					"customer" : "Rouen Business School",
+					"contract" : "Régie",
+					"function" : "Développeur",
+					"description" : "Maintenance évolutive et corrective du site de l’école",
+					"technologies" : ["Joomla!", "PHP", "MySQL", "HTML", "CSS", "JQuery"]
+				},
+				{
+					"customer" : "Région Basse-Normandie",
+					"contract" : "Forfait",
+					"function" : "Chef de projet / Développeur",
+					"description" : "Tierce Maintenance Applicative pour les différents sites gérés par le CRBN",
+					"technologies" : ["Joomla!", "PHP", "MySQL", "HTML", "CSS", "JQuery"]
+				}
+			]
+		},
+		{
+			"year" : "2008-2009",
+			"missions" : [
+				{
+					"customer" : "Assistance Publique des Hôpitaux de Paris",
+					"contract" : "Forfait",
+					"function" : "Développeur / Web Designer",
+					"description" : "Conception de l’ergonomie et du design pour le projet ROR-IF",
+					"technologies" : ["Java", "Oracle", "HTML", "CSS"]
+				},
+				{
+					"customer" : "Eure Habitat",
+					"contract" : "Forfait",
+					"function" : "Développeur / Web Designer",
+					"description" : "Développement client de l’intranet d’Eure Habitat",
+					"technologies" : ["HTML", "CSS", "JQuery"]
+				},
+				{
+					"customer" : "Véolia Eau Rouen",
+					"contract" : "Forfait",
+					"function" : "Développeur / Web Designer",
+					"description" : "Conception et développement du template Joomla! De leur intranet",
+					"technologies" : ["Joomla!", "HTML", "CSS"]
+				}
+			]
+		},
+		{
+			"year" : "2003-2005",
+			"missions" : [
+				{	"contract" : "Forfait",
+					"function" : "Développeur",
+					"description" : "Maintenance des sites : Opodo, Promovacances, SNCF-Voyages, Tati voyages",
+					"technologies" : ["PHP", "MySQL", "HTML", "CSS"]
+				},
+				{
+					"function" : "Développeur / Web Designer",
+					"description" : "Conception et développement d’une application de création de gestion de newsletters",
+					"technologies" : ["PHP", "MySQL", "HTML", "CSS", "Javascript"]
+				},
+				{
+					"customer" : "Hopadom",
+					"contract" : "Forfait",
+					"function" : "Développeur / Web Designer",
+					"description" : "Conception et développement de l’extranet d’Hopadom",
+					"technologies" : ["PHP", "MySQL", "HTML", "CSS"]
+				}
+			]
+		}
+	],
+	"topSkills" : [
+		{
+			"name" : "PHP",
+			"level" : "85"
+		},
+		{
+			"name" : "Java",
+			"level" : "75"
+		},
+		{
+			"name" : "JQuery",
+			"level" : "95"
+		},
+		{
+			"name" : "HTML5",
+			"level" : "80"
+		}
+	],
+	"skills" : [
+		{
+			"category" : "Systèmes d'exploitation",
+			"technologies" : ["Debian", "Mint", "Ubuntu", "Windows"]
+		},
+		{
+			"category" : "Langages",
+			"technologies" : ["Java", "PHP5", "HTML5", "CSS/Less", "Javascript", "SQL", "XML", "JSON"]
+		},
+		{
+			"category" : "Frameworks & APIs",
+			"technologies" : ["Play Framework 1/2", "Hibernate",  "Zend Framework 1", "Symfony", "Bootstrap", "JQuery", "AngularJS", "Web services REST/SOAP", "RegExp"]
+		},
+		{
+			"category" : "Tests",
+			"technologies" : ["JUnit", "AssertJ", "FluentLenium"]
+		},
+		{
+			"category" : "CMS",
+			"technologies" : ["Joomla!", "WordPress"]
+		},
+		{
+			"category" : "IDE",
+			"technologies" : ["Eclipse", "Intellij IDEA", "NetBeans"]
+		},
+		{
+			"category" : "Intégration Continue",
+			"technologies" : ["SVN", "GIT", "SmartGit/GitFlow", "Jenkins", "Sonar", "Jira", "Confluence"]
+		},
+		{
+			"category" : "Conception & Architecture",
+			"technologies" : ["Design pattern MVC/MVVM", "Merise", "UML"]
+		},
+		{
+			"category" : "Gestion de projet",
+			"technologies" : ["Agile", "Scrum"]
+		},
+		{
+			"category" : "Web Design",
+			"technologies" : ["Fireworks", "Photoshop", "Illustrator", "Flash"]
+		}
+			
+		
+		
+	],
+	"hobbies" : [
+		"Lecture tout genre", "Cinéma", "Bricolage/Jardinage", "Bowling", "Equitation"
+	]
+}
+
